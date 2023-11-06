@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.115.100:3306/w2z?serverTimezone=Asia/Shanghai
-    username: iamwells
-    password: Wzw199887%%
+    username: test
+    password: Qwer123456
     hikari:
       maximum-pool-size: 16
