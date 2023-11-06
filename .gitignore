@@ -3,11 +3,12 @@
 *.ipr
 *.iml
 *.iws
+HELP.md
 
 ### Eclipse ###
 .project
 .classpath
-.settings/
+.settings
 
 ### Maven ###
 .mvn
@@ -15,12 +16,12 @@ mvnw
 mvnw.cmd
 
 ### Gradle ###
-.gradle/
-build/
+.gradle
 
 ### SYSTEM ###
 .DS_Store
 Thumbs.db
 
 ### Java ###
-target/
+target
+build
