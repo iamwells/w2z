@@ -19,6 +19,7 @@ public class CommonEntity<T> {
 
     private String info;
 
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private T data;
 
     public  static <T> CommonEntity<T> ok(T data) {

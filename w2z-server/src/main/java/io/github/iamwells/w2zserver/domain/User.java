@@ -4,22 +4,23 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serial;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 /**
  * 用户
  * @TableName user
  */
-@TableName(value ="user")
 @Data
-@EqualsAndHashCode
+@NoArgsConstructor
+@AllArgsConstructor
+@TableName(value = "user")
 public class User implements Serializable {
     /**
      * 主键
@@ -78,6 +79,7 @@ public class User implements Serializable {
     private Integer version;
 
 
+    @Serial
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
 }
