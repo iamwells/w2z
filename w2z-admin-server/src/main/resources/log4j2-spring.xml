@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" monitorInterval="60">
+    <!-- 日志文件目录和压缩文件目录配置 -->
+    <Properties>
+        <Property name="FILENAME">./logs</Property>
+        <Property name="LEVEL">DEBUG</Property>
+        <Property name="LOG_PATTERN">
+            %d{ISO8601_OFFSET_DATE_TIME_HHCMM} %highlight{%-5level} %style{%pid}{magenta} %style{---}{white} [%-15.15t] %style{%logger{39}.%M[%L]}{cyan} : %msg%n%throwable
+        </Property>
+        <Property name="FILE_LOG_PATTERN">
+            %d{ISO8601_OFFSET_DATE_TIME_HHCMM} %-5level %pid --- [%-15.15t] %logger{39}.%M[%L] : %msg%n%throwable
+        </Property>
+    </Properties>
+
+    <Appenders>
+        <!-- 输出控制台日志的配置 -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <!--控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch）-->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <!-- 输出日志的格式 -->
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+        <RollingRandomAccessFile name="WarnErrorFile" fileName="${FILENAME}/warn_error/app-warn-error.log"
+                                 filePattern="${FILENAME}/warn_error/$${date:yyyy-MM}/app-warn-error-%d{yyyy-MM-dd}-%i.log"
+                                 immediateFlush="false" append="false">>
+            <PatternLayout pattern="${FILE_LOG_PATTERN}"/>
+            <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="20MB"/>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingRandomAccessFile>
+        <RollingRandomAccessFile name="DebugFile" fileName="${FILENAME}/debug/app-debug.log"
+                                 filePattern="${FILENAME}/debug/$${date:yyyy-MM}/app-debug-%d{yyyy-MM-dd}-%i.log"
+                                 immediateFlush="false" append="false">>
+            <PatternLayout pattern="${FILE_LOG_PATTERN}"/>
+            <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="20MB"/>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingRandomAccessFile>
+        <!--        <RollingRandomAccessFile name="DebugFile" fileName="${FILENAME}/debug/app-debug.log"-->
+        <!--                                 filePattern="${FILENAME}/debug/$${date:yyyy-MM}/app-debug-%d{yyyy-MM-dd}-%i.log"-->
+        <!--                                 immediateFlush="false" append="false">-->
+        <!--            <PatternLayout pattern="${FILE_LOG_PATTERN}"/>-->
+        <!--            <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>-->
+        <!--            <Policies>-->
+        <!--                <SizeBasedTriggeringPolicy size="10MB"/>-->
+        <!--                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>-->
+        <!--            </Policies>-->
+        <!--        </RollingRandomAccessFile>-->
+    </Appenders>
+
+    <!-- 全局配置，默认所有的Logger都继承此配置 -->
+    <Loggers>
+        <Root level="${LEVEL}" additivity="false" includeLocation="true">
+            <AppenderRef ref="Console"/>
+        </Root>
+
+        <AsyncLogger level="${LEVEL}" name="io.github.iamwells" includeLocation="true">
+            <AppenderRef ref="WarnErrorFile"/>
+            <AppenderRef ref="DebugFile"/>
+        </AsyncLogger>
+<!--        <AsyncLogger level="${LEVEL}" name="com" includeLocation="true">-->
+<!--            <AppenderRef ref="WarnErrorFile"/>-->
+<!--            <AppenderRef ref="DebugFile"/>-->
+<!--        </AsyncLogger>-->
+<!--        </AsyncLogger>-->
+<!--        <AsyncLogger level="${LEVEL}" name="org" includeLocation="true">-->
+<!--            <AppenderRef ref="WarnErrorFile"/>-->
+<!--            <AppenderRef ref="DebugFile"/>-->
+<!--        </AsyncLogger>-->
+<!--        <AsyncLogger level="${LEVEL}" name="net" includeLocation="true">-->
+<!--            <AppenderRef ref="WarnErrorFile"/>-->
+<!--            <AppenderRef ref="DebugFile"/>-->
+<!--        </AsyncLogger>-->
+<!--        <AsyncLogger level="${LEVEL}" name="javax" includeLocation="true">-->
+<!--            <AppenderRef ref="WarnErrorFile"/>-->
+<!--            <AppenderRef ref="DebugFile"/>-->
+<!--        </AsyncLogger>-->
+<!--        <AsyncLogger level="${LEVEL}" name="jakarta" includeLocation="true">-->
+<!--            <AppenderRef ref="WarnErrorFile"/>-->
+<!--            <AppenderRef ref="DebugFile"/>-->
+<!--        </AsyncLogger>-->
+    </Loggers>
+</Configuration>

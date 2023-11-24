@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: w2z-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.115.100:3306/w2z?serverTimezone=Asia/Shanghai
+    username: test
+    password: Qwer123456
+    hikari:
+      maximum-pool-size: 16
+  data:
+    redis:
+      host: 192.168.115.100
+      username: test
+      password: Qwer123456
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
