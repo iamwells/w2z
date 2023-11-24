@@ -16,7 +16,7 @@ public class JwtPayloadProperties {
      * 发布者
      */
     @Value("${spring.application.name}")
-    private String iss = "w2z-server";
+    private String iss = "w2z";
     /**
      * 主题
      */
@@ -24,7 +24,7 @@ public class JwtPayloadProperties {
     /**
      * 接收者
      */
-    private Set<String> aud = new HashSet<>(Set.of("w2z-blog-user"));
+    private Set<String> aud = new HashSet<>(Set.of("w2z-admin-user"));
     /**
      * 持续时间，单位：分钟
      */

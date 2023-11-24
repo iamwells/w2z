@@ -126,7 +126,7 @@ public class JwtUtil {
             byte[] secret = secretEncoder.encode(signature.getSecret()).getBytes(StandardCharsets.UTF_8);
             hmacKey = new HmacKey(secret);
             try (
-                    ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("jwt.key"))
+                    ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("jwt-admin.key"))
             ) {
                 oos.writeObject(hmacKey);
                 oos.flush();

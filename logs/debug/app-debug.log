@@ -1,0 +1,53 @@
+2023-11-22T16:33:27,624+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[51] : Starting W2zServerApplication using Java 21.0.1 with PID 21176 (D:\iamwu\Documents\IdeaProjects\w2z\w2z-server\target\classes started by iamwu in D:\iamwu\Documents\IdeaProjects\w2z)
+2023-11-22T16:33:27,627+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[52] : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-22T16:33:27,628+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStartupProfileInfo[638] : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:33:29,528+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.initCleanTask[86] : Token注销列表过期清理任务已创建，执行周期为1DAYS等待执行
+2023-11-22T16:33:29,531+08:00 INFO  21176 --- [               ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.lambda$initCleanTask$0[73] : Token注销列表过期清理任务开始执行...
+2023-11-22T16:33:29,575+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.init[240] : Filter 'jwtTokenFilter' configured for use
+2023-11-22T16:33:30,624+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarted[57] : Started W2zServerApplication in 3.33 seconds (process running for 3.975)
+2023-11-22T16:35:28,434+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[51] : Starting W2zServerApplication using Java 21.0.1 with PID 21176 (D:\iamwu\Documents\IdeaProjects\w2z\w2z-server\target\classes started by iamwu in D:\iamwu\Documents\IdeaProjects\w2z)
+2023-11-22T16:35:28,434+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[52] : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-22T16:35:28,435+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStartupProfileInfo[638] : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:35:28,925+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.initCleanTask[86] : Token注销列表过期清理任务已创建，执行周期为1DAYS等待执行
+2023-11-22T16:35:28,927+08:00 INFO  21176 --- [               ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.lambda$initCleanTask$0[73] : Token注销列表过期清理任务开始执行...
+2023-11-22T16:35:28,942+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.init[240] : Filter 'jwtTokenFilter' configured for use
+2023-11-22T16:35:29,405+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarted[57] : Started W2zServerApplication in 1.008 seconds (process running for 122.758)
+2023-11-22T16:35:40,105+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[51] : Starting W2zServerApplication using Java 21.0.1 with PID 21176 (D:\iamwu\Documents\IdeaProjects\w2z\w2z-server\target\classes started by iamwu in D:\iamwu\Documents\IdeaProjects\w2z)
+2023-11-22T16:35:40,105+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[52] : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-22T16:35:40,105+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStartupProfileInfo[638] : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:35:40,567+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.initCleanTask[86] : Token注销列表过期清理任务已创建，执行周期为1DAYS等待执行
+2023-11-22T16:35:40,568+08:00 INFO  21176 --- [               ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.lambda$initCleanTask$0[73] : Token注销列表过期清理任务开始执行...
+2023-11-22T16:35:40,588+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.init[240] : Filter 'jwtTokenFilter' configured for use
+2023-11-22T16:35:41,033+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarted[57] : Started W2zServerApplication in 0.956 seconds (process running for 134.384)
+2023-11-22T16:47:05,030+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[51] : Starting W2zServerApplication using Java 21.0.1 with PID 21176 (D:\iamwu\Documents\IdeaProjects\w2z\w2z-server\target\classes started by iamwu in D:\iamwu\Documents\IdeaProjects\w2z)
+2023-11-22T16:47:05,031+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[52] : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-22T16:47:05,031+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStartupProfileInfo[638] : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:47:05,582+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.initCleanTask[86] : Token注销列表过期清理任务已创建，执行周期为1DAYS等待执行
+2023-11-22T16:47:05,584+08:00 INFO  21176 --- [               ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.lambda$initCleanTask$0[73] : Token注销列表过期清理任务开始执行...
+2023-11-22T16:47:05,606+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.init[240] : Filter 'jwtTokenFilter' configured for use
+2023-11-22T16:47:06,121+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarted[57] : Started W2zServerApplication in 1.128 seconds (process running for 819.473)
+2023-11-22T16:47:07,649+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[51] : Starting W2zServerApplication using Java 21.0.1 with PID 21176 (D:\iamwu\Documents\IdeaProjects\w2z\w2z-server\target\classes started by iamwu in D:\iamwu\Documents\IdeaProjects\w2z)
+2023-11-22T16:47:07,649+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[52] : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-22T16:47:07,649+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStartupProfileInfo[638] : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:47:08,106+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.initCleanTask[86] : Token注销列表过期清理任务已创建，执行周期为1DAYS等待执行
+2023-11-22T16:47:08,106+08:00 INFO  21176 --- [               ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.lambda$initCleanTask$0[73] : Token注销列表过期清理任务开始执行...
+2023-11-22T16:47:08,125+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.init[240] : Filter 'jwtTokenFilter' configured for use
+2023-11-22T16:47:08,635+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarted[57] : Started W2zServerApplication in 1.01 seconds (process running for 821.986)
+2023-11-22T16:48:43,017+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[51] : Starting W2zServerApplication using Java 21.0.1 with PID 21176 (D:\iamwu\Documents\IdeaProjects\w2z\w2z-server\target\classes started by iamwu in D:\iamwu\Documents\IdeaProjects\w2z)
+2023-11-22T16:48:43,017+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[52] : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-22T16:48:43,017+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStartupProfileInfo[638] : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:48:43,603+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.initCleanTask[86] : Token注销列表过期清理任务已创建，执行周期为1DAYS等待执行
+2023-11-22T16:48:43,605+08:00 INFO  21176 --- [               ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.lambda$initCleanTask$0[73] : Token注销列表过期清理任务开始执行...
+2023-11-22T16:48:43,621+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.init[240] : Filter 'jwtTokenFilter' configured for use
+2023-11-22T16:48:45,223+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[51] : Starting W2zServerApplication using Java 21.0.1 with PID 21176 (D:\iamwu\Documents\IdeaProjects\w2z\w2z-server\target\classes started by iamwu in D:\iamwu\Documents\IdeaProjects\w2z)
+2023-11-22T16:48:45,224+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[52] : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-22T16:48:45,224+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStartupProfileInfo[638] : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:48:45,688+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.initCleanTask[86] : Token注销列表过期清理任务已创建，执行周期为1DAYS等待执行
+2023-11-22T16:48:45,692+08:00 INFO  21176 --- [               ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.lambda$initCleanTask$0[73] : Token注销列表过期清理任务开始执行...
+2023-11-22T16:48:45,708+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.init[240] : Filter 'jwtTokenFilter' configured for use
+2023-11-22T16:50:26,453+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[51] : Starting W2zServerApplication using Java 21.0.1 with PID 21176 (D:\iamwu\Documents\IdeaProjects\w2z\w2z-server\target\classes started by iamwu in D:\iamwu\Documents\IdeaProjects\w2z)
+2023-11-22T16:50:26,454+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStarting[52] : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-22T16:50:26,454+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.W2zServerApplication.logStartupProfileInfo[638] : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:50:26,996+08:00 INFO  21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.initCleanTask[86] : Token注销列表过期清理任务已创建，执行周期为1DAYS等待执行
+2023-11-22T16:50:26,998+08:00 INFO  21176 --- [               ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.lambda$initCleanTask$0[73] : Token注销列表过期清理任务开始执行...
+2023-11-22T16:50:27,015+08:00 DEBUG 21176 --- [restartedMain  ] io.github.iamwells.w2zserver.filter.JwtTokenFilter.init[240] : Filter 'jwtTokenFilter' configured for use
